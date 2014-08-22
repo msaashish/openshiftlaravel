@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^laravel
+RewriteRule ^(.*)$ laravel/$1 [L]
